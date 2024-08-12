@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.background {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/b2c3e95b-b7b5-4bb7-a883-f4bfc7472fb7/19fc1a4c-82db-4481-ad08-3a1dffbb8c39/IN-en-20240805-POP_SIGNUP_TWO_WEEKS-perspective_WEB_24a485f6-1820-42be-9b60-1b066f1eb869_large.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: max(1200px, 100vw);
+    height: 644px;
+    position: relative;
+    opacity: 0.65;
+
+}
+
+.background .section-1 {
+    height: 644px;
+    width: 100%;
+    opacity: 0.65;
+    position: absolute;
+
+}
+
+nav {
+    width: 74vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 100px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+nav img {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+.btn {
+    padding: 3px 8px;
+    border-radius: 4px;
+    background-color: rgba(248, 243, 243, 0.021);
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+    width: 88px;
+    border: 1px solid white;
+}
+
+.btn-red2 {
+    padding: 3px 24px;
+    background-color: red;
+    color: white;
+    font-weight: 400;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-red1 {
+    color: white;
+    background-color: red;
+    width: 88px;
+}
+
+.text-btn {
+    text-align: center;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.text {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100%-100px);
+    padding: 0px 30px;
+    gap: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 20;
+}
+
+.text> :nth-child(1) {
+    font-weight: bolder;
+    font-family: 'poppins', sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+.text> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.background input {
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-size: 14px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    cursor: pointer;
+
+}
+
+.text-all {
+    padding: 130px 30px;
+}
+
+.separation {
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+    height: 7px;
+}
+
+.first {
+    max-width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+}
+
+.secimg img {
+    position: relative;
+    z-index: 10;
+    width: 555px;
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg2 {
+    position: relative;
+}
+
+.secimg video {
+    position: absolute;
+    width: 407px;
+    top: 120px;
+    right: 78px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+
+.secimg2 img {
+    position: relative;
+    z-index: 10;
+    width: 510px;
+}
+
+.secimg3 img {
+    position: relative;
+    z-index: 10;
+    width: 555px;
+}
+
+.secimg3 video {
+    position: absolute;
+    width: 344px;
+    top: 1665px;
+    right: 330px;
+}
+
+.secimg4 {
+    position: relative;
+}
+
+.secimg4 img {
+    position: relative;
+    width: 510px;
+}
+
+.faq h2 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+
+.faq {
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: rgb(80, 78, 79);
+    color: white;
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 34px auto;
+    padding: 24px;
+    max-width: 60vw;
+    background-color: #2d2d2d;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.fourth {
+    font-size: 24px;
+    text-align: center;
+}
+
+.btn3 {
+    text-align: center;
+    gap: 16px;
+    padding: 16px;
+
+}
+
+.btn3 input {
+    font-weight: 400;
+    color: white;
+    position: relative;
+    z-index: 10;
+    font-size: 14px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    border-radius: 4px;
+    padding: 7px 101px 8px 14px;
+    gap: 16px;
+
+}
+
+.btn3 button {
+    background-color: red;
+    position: relative;
+    z-index: 10;
+    padding: 3px 24px;
+    color: white;
+    font-weight: 400;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.questions {
+    color: white;
+    padding: 34px 0;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    padding: 55px;
+    margin: auto;
+    height: 50vh;
+}
+
+.footer-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    gap: 80px;
+    margin: 30px;
+}
+
+.btn2 {
+    padding: 3px 8px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.799);
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+    width: 88px;
+}
+
+.text3 {
+    font-size: 14px;
+    padding: 34px 0;
+}
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
